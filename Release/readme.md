@@ -1,6 +1,6 @@
 #readme.md
 # Stock Client View ver.0.08.2
-※このコードを利用するためにはpythonが必要です。
+※このコードを利用するためにはpythonが必要です。(3.8.0を使用)
 
 これはエクセルと連携して利用することで、在庫の管理と貸出先への貸し出し数が簡単かつ素早く確認できるコードです
 
@@ -56,37 +56,30 @@
 - もし分からなければサイト等を参考にする　https://techacademy.jp/magazine/15571#sec2
 
 ## Stock Client View の使い方
-主に使用するのは以下のファイルです
-- new_stock.py
-- out_input.py
-- in_input.py
-- delete_stock.py 
-- lenting_ck.py
-- lenting_ck_one.py
-- stock_ck.py
+
 
 同時に一つの画面のみ利用し、他の画面は開かないこと（データが破損する恐れあり）
 
-## new_stock.py
+- 新規
 新規在庫を登録できます
 
-## out_input.py
+-  出庫
 取引先へ出庫するとき
 
-## in_input.py
+- 入庫
 取引先から帰ってきたとき
 
-## delete_stock.py
+- 廃棄
 岡山支部に戻ってきている在庫を廃棄します
 
-## lenting_ck.py
+- 出庫先一覧（いまいち）
 取引先とその取引先への出庫状況が一覧で表示されます
 ※工事番号は少しみにくい
 
-## lenting_ck_one.py
+- 出庫先検索
 指定の工事番号への出庫状況を確認できます
 
-## stock_ck.py
+- 在庫
 出入庫の数が確認できます
 
 ## エラーや困った場合
