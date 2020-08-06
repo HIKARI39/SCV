@@ -44,7 +44,7 @@
 
 
 ## 【必須】python のインストール
-1. https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe　をダウンロード
+1. https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe     をダウンロード
 2. DLしたファイルを実行し"install now"など、特に変更することなく進行させる
 3. 完了画面が出たら成功
 
