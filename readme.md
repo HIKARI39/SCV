@@ -84,4 +84,4 @@
 出入庫の数が確認できます
 
 ## エラーや困った場合
-件名「Stock Client Viewについて」と記し、メール（h_kudo39★s.okayama-u.ac.jp）にて連絡して下さい。
+件名「Stock Client Viewについて」と記し、メール（h_kudo39★s.okayama-u.ac.jp）に連絡して下さい。
