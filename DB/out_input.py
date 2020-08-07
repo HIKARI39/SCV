@@ -4,6 +4,7 @@
 """
 import datetime
 import time
+import sys
 now = datetime.datetime.now()
 
 
@@ -11,6 +12,7 @@ path_lent = "./DB/data/lenting_out.stock"
 path_log = "./DB/log/out_" + now.strftime("%Y%m%d_%H%M%S") + ".log"
 path_stock = "./DB/data/okayama.stock"
 num = []
+cou = 0
 
 print("Enter で保存&終了します")
 
@@ -19,18 +21,27 @@ with open(path_lent) as lent:
 with open(path_stock) as st:
     stock = [a.strip() for a in st.readlines()]
 con = input("工事番号:")
+if con == "":
+    print("無効な値 - 終了します")
+    time.sleep(2)
+    sys.exit(0)
 
 path_con = "./DB/data/construction/" + con +".stock"
 
 while True:
     a = input("出庫-製品管理番号:")
     if a == "":
+        if cou == 0:
+            print("無効な値 - 終了します")
+            time.sleep(2)
+            sys.exit(0)
         break
     num.append(a)
+    cou += 1
 for a in num:
     stock.remove(a)
     lend.append(a)
-    print(a, "removing...")
+    #print(a, "removing...")
     
     path_stback = ("./DB/data/stock_back/" + a + ".stock")
     
@@ -48,7 +59,7 @@ with open(path_con, "a") as cons:
 
 l = len(num)
 print("Total %d 件　出庫しました" % (l))
-print("終了しています。誤りがある場合発生時刻を確認後、製作者に確認してください")
+print("誤りがある場合発生時刻を確認後、製作者に確認してください")
 time.sleep(2)
 
 """
