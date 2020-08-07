@@ -6,11 +6,13 @@
 
 ## ニューリリース
 - 0.07.0
-    - pyファイルからの連携で実行ができるようになりました
+    - pyファイルからの実行
 - 0.08.1
     - 軽微なバグの修正
 - 0.08.2
-    - GUIからの実行が可能になりました
+    - GUIへの対応
+- 0.08.3
+    - 使い方pdfを追加
 
 ## 注意事項
 - 試用評価(β)版
@@ -51,7 +53,7 @@
 - もし分からなければサイト等を参考にする　https://techacademy.jp/magazine/15571#sec2
 
 ## Stock Client View の導入方法
-1. DLする(https://github.com/HIKARI39/SCV/archive/master.zip)
+1. DLする(https://github.com/HIKARI39/SCV/archive/master.zip)+SLDBConnectorのDL（検索）
 2. ファイルを解凍し、任意の場所に保存する
 3. exeファイルを実行する
 4. 名前とパスの欄に適当な文字を入れてログインする
