@@ -51,7 +51,7 @@
 - もし分からなければサイト等を参考にする　https://techacademy.jp/magazine/15571#sec2
 
 ## Stock Client View の導入方法
-1. DLする(https://github.com/HIKARI39/SCV/archive/master.zip)
+1. DLする(https://github.com/HIKARI39/SCV/archive/master.zip)+SLDBConnectorのDL（検索）
 2. ファイルを解凍し、任意の場所に保存する
 3. exeファイルを実行する
 4. 名前とパスの欄に適当な文字を入れてログインする
