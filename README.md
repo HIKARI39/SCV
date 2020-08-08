@@ -1,4 +1,4 @@
-#readme.md
+#README.md
 # Stock Client View
 ※このコードを利用するためにはpythonが必要です。(3.8.0を使用)
 
